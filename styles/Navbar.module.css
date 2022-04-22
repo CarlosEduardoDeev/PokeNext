@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    align-items: center;
+    height: 60px;
+
+}
+.logo{
+    display: flex;
+    margin-left: 1em;
+    align-items: center;
+}
+.logo h1{
+    margin-left: 1em;
+}
+.items{
+    display: flex;
+}
+.items li{
+    list-style: none;
+}
+.items a{
+    text-decoration: none;
+    margin-right: 4em;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+
+.items a:hover{
+    border-bottom: 2px solid #fff;
+    transition: .4s;
+}
